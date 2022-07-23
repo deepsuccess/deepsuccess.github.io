@@ -25,8 +25,10 @@ const Navbar = () => {
     }}> */}
       {/* left */}
       <div className="n-left">
+      <a href="https://www.instagram.com/deepsuccessss/" target="__blank" style={{color:darkMode?"white":"black"}}>
         <img src={deepanshu} />
         <div className="n-name">@deepsuccessss</div>
+        </a>
         <Toggle />
       </div>
       {/* right */}

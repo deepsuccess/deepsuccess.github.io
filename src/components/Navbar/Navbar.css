@@ -18,7 +18,7 @@
   display: flex;
   gap: 2rem;
 }
-.n-left>img{
+.n-left img{
   display: flex;
   height:50px;
   border-radius: 50%;
@@ -27,6 +27,15 @@
 .n-name {
   font-size: 1.3rem;
   font-weight: bold;
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+.n-left a{
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
 }
 .n-right {
   flex: 1;
@@ -69,7 +78,7 @@
  .n-left{
   gap: 0.2rem;
  }
- .n-left>img{
+ .n-left img{
   display: none;
  }
 }
