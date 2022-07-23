@@ -28,12 +28,11 @@
   font-size: 1.3rem;
   font-weight: bold;
   text-decoration: none;
-  color: white;
   margin-left: 10px;
 }
 .n-left a{
   text-decoration: none;
-  color: white;
+  /* color: white; */
   display: flex;
   align-items: center;
 }
@@ -81,4 +80,15 @@
  .n-left img{
   display: none;
  }
+}
+@media screen and (max-width: 320px) {
+  .n-name {
+    font-size: 1rem;
+  }
+.n-right .button{
+  padding:6px 15px
+}
+.toggle{
+  transform: scale(0.8);
+}
 }

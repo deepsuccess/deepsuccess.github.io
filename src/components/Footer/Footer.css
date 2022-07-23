@@ -29,4 +29,7 @@
   .f-content > a >span{
     font-size: 38px;
   }
+  .footer {
+    margin-top: 1rem;
+  }
 }
