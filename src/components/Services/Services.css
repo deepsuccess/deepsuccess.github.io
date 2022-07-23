@@ -60,14 +60,14 @@
     margin-top: 70px;
     flex-direction: column;
     gap: 5rem;
-    height: 114rem;
+    height: 123rem;
     padding: 0;
   }
 
   .cards {
     display: flex;
     flex-direction: column;
-    gap: 35rem;
+    gap: 40rem;
   }
   .cards > * {
     position: static;
