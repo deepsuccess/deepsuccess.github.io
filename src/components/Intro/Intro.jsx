@@ -36,7 +36,7 @@ const Intro = () => {
           A leading Affiliate Marketer at LeadsGuru and a Digital creator
           </span>
         </div>
-        <a className="button n-button" href="tel:+918619202808 ">WhatsApp me on &nbsp;+918619202808 </a>
+        <a className="button n-button" href="tel:+918619202808 "><center>WhatsApp me on <br /> &nbsp;+91 8619202808 <br /> to know about My Business</center> </a>
         <div className="social-icons">
         <a href="https://www.instagram.com/deepsuccessss/" target="__blank" className="instaTag">
           <img src={Instagram} alt="Instagram" height="30px" style={{padding:"7px"}}/>@deepsuccessss

@@ -108,7 +108,7 @@ a.instaTag{
     flex-direction: column;
     gap: 7rem;
     height: 64rem;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
   }
 
   .i-right {
