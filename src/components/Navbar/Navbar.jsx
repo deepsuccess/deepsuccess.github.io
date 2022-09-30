@@ -26,7 +26,7 @@ const Navbar = () => {
       {/* left */}
       <div className="n-left">
       <a href="https://www.instagram.com/deepsuccessss/" target="__blank" style={{color:darkMode?"white":"black"}}>
-        <img src={deepanshu} />
+        <img src={deepanshu} alt="deepanshu" />
         <div className="n-name">@deepsuccessss</div>
         </a>
         <Toggle />
@@ -36,12 +36,12 @@ const Navbar = () => {
         <div className="n-list">
           <ul style={{ listStyleType: "none" }}>
             <li>
-              <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
+              <Link activeClass="active" to="Navbar" spy={true} smooth={true} style={{color:darkMode?"white":""}}>
                 Home
               </Link>
             </li>
             <li>
-              <Link to="services" spy={true} smooth={true}>
+              <Link to="services" spy={true} smooth={true} style={{color:darkMode?"white":""}}>
                 Serivces
               </Link>
             </li>
@@ -56,7 +56,7 @@ const Navbar = () => {
               </Link>
             </li> */}
             <li>
-              <Link to="testimonial" spy={true} smooth={true}>
+              <Link to="testimonial" spy={true} smooth={true} style={{color:darkMode?"white":""}}>
                 Testimonial
               </Link>
             </li>

@@ -17,10 +17,10 @@ iframe{
     align-self: start;
 }
 .t-heading>*{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
 }
-.t-heading span:nth-of-type(2){
+.t-heading span:nth-of-type(2),.t-heading span:nth-of-type(4){
     color: var(--orange);
 }
 
@@ -88,7 +88,8 @@ iframe{
     }
     .p-wrapper{
         padding: 0;
-        margin-top: 3rem;
+        margin-top: 15rem;
+        gap: 3rem;
     }
     .testimonial>img{
         width: 70px;
@@ -101,5 +102,9 @@ iframe{
     .testimonial{
         width: 15rem;
         padding:1rem;
+    }
+    .t-heading>*{
+        font-size: 1.2rem;
+        font-weight: bold;
     }
   }
