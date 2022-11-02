@@ -45,17 +45,14 @@ const Testimonial = () => {
   ];
   const clientVideos = [
     {
-      videoUrl:
-        "https://youtube.com/shorts/xVmrkMtrlQg?feature=share",
+      videoUrl: "https://youtube.com/shorts/xVmrkMtrlQg?feature=share",
     },
     {
-      videoUrl:
-        "https://youtube.com/shorts/uxToW4Q2oFY?feature=share",
+      videoUrl: "https://youtube.com/shorts/uxToW4Q2oFY?feature=share",
     },
     {
-      videoUrl:
-        "https://youtube.com/shorts/BfUoVKsPgJI?feature=share",
-    }
+      videoUrl: "https://youtube.com/shorts/BfUoVKsPgJI?feature=share",
+    },
   ];
 
   return (
@@ -70,12 +67,12 @@ const Testimonial = () => {
         ></div>
         <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
       </div>
-      <Swiper
+      {/* <Swiper
         modules={[Pagination]}
         slidesPerView={1}
         pagination={{ clickable: true }}
-      >
-        {/* {clients.map((client, index) => {
+      > */}
+      {/* {clients.map((client, index) => {
           return (
             <SwiperSlide key={index}>
               <div className="testimonial">
@@ -90,14 +87,26 @@ const Testimonial = () => {
             </SwiperSlide>
           );
         })} */}
-        {clientVideos.map((client, index) => {
+      {/* {clientVideos.map((client, index) => {
           return (
             <SwiperSlide key={index}>
-            <ReactPlayer url={client.videoUrl} playIcon="true" controls="true"/>
+            <ReactPlayer url={client.videoUrl} controls="true"/>
             </SwiperSlide>
           );
+        })} */}
+      {/* </Swiper> */}
+
+      <div className="testimonial-elements">
+        {clientVideos.map((client, index) => {
+          return (
+            <>
+              <div className="testimonial-element">
+                <ReactPlayer url={client.videoUrl} controls="true" />
+              </div>
+            </>
+          );
         })}
-      </Swiper>
+      </div>
     </div>
   );
 };

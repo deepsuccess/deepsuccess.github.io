@@ -79,6 +79,20 @@
 .t-wrapper iframe{
     width: 175px;
     height: 315px;
+    /* z-index: -1; */
+}
+.testimonial-elements{
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+}
+.testimonial-element,.testimonial-element div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.testimonial-element,.testimonial-element>div{
+   width:175px !important;
 }
 
 .swiper-slide div{
@@ -87,6 +101,11 @@
 }
 
 @media screen and (max-width: 480px){
+    .testimonial-elements{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .swiper-slide {
         height: 75%;
         
