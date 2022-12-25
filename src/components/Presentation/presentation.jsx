@@ -12,7 +12,7 @@ const Presentation = () => {
   
 
   return (
-    <div className="p-wrapper" id="testimonial" >
+    <div className="p-wrapper" id="presentation" >
       <div className="t-heading">
         <span style={{ color: darkMode ? "white" : "" }}>How I made more than </span>
         <span>1 Million </span>

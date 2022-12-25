@@ -9,17 +9,17 @@ const Experience = () => {
     <div className="experience" id='experience'>
       <div className="achievement">
         {/* darkMode */}
-        <div className="circle" style={{color: darkMode?'var(--orange)':'',border:darkMode?"orange solid":"",backgroundColor:darkMode?"black":""}}>11 Lakh+</div>
+        <div className="circle" style={{color: darkMode?'var(--orange)':'',border:darkMode?"orange solid":"",backgroundColor:darkMode?"black":""}}>{process.env.REACT_APP_EARNINGS}</div>
         <span  style={{color: darkMode?'white':'',fontSize:"30px"}}>Total </span>
         <span style={{fontSize:"30px"}}>Earnings</span>
       </div>
       <div className="achievement">
-        <div className="circle" style={{color: darkMode?'var(--orange)':'',border:darkMode?"orange solid":"",backgroundColor:darkMode?"black":""}}>7200+</div>
-        <span  style={{color: darkMode?'white':'',fontSize:"30px"}}>Total </span>
-        <span style={{fontSize:"30px"}}>Referrals</span>
+        <div className="circle" style={{color: darkMode?'var(--orange)':'',border:darkMode?"orange solid":"",backgroundColor:darkMode?"black":""}}>{process.env.REACT_APP_SESSIONS}</div>
+        <span  style={{color: darkMode?'white':'',fontSize:"30px"}}>Live </span>
+        <span style={{fontSize:"30px"}}>Sessions</span>
       </div>
       <div className="achievement">
-        <div className="circle" style={{color: darkMode?'var(--orange)':'',border:darkMode?"orange solid":"",backgroundColor:darkMode?"black":""}}>1500+</div>
+        <div className="circle" style={{color: darkMode?'var(--orange)':'',border:darkMode?"orange solid":"",backgroundColor:darkMode?"black":""}}>{process.env.REACT_APP_TEAM}</div>
         <span  style={{color: darkMode?'white':'',fontSize:"30px"}}>Team </span>
         <span style={{fontSize:"30px"}}>Members</span>
       </div>

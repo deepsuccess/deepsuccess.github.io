@@ -36,13 +36,13 @@ const Navbar = () => {
         <div className="n-list">
           <ul style={{ listStyleType: "none" }}>
             <li>
-              <Link activeClass="active" to="Navbar" spy={true} smooth={true} style={{color:darkMode?"white":""}}>
+              <Link activeClass="active" to="start" spy={true} smooth={true} style={{color:darkMode?"white":""}}>
                 Home
               </Link>
             </li>
             <li>
-              <Link to="services" spy={true} smooth={true} style={{color:darkMode?"white":""}}>
-                Serivces
+              <Link to="presentation" spy={true} smooth={true} style={{color:darkMode?"white":""}}>
+                Presentation
               </Link>
             </li>
             {/* <li>

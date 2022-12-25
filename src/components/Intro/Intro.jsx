@@ -12,6 +12,7 @@ import FloatinDiv from "../FloatingDiv/FloatingDiv";
 // import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
 import Youtube from '../../img/youtube.png'
+import Telegram from '../../img/telegram.png'
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 // import { Link } from "react-scroll";
@@ -43,6 +44,9 @@ const Intro = () => {
           </a>
         <a href="https://www.youtube.com/channel/UCOIbUcksTZtnV7fAV3UNc6Q" target="__blank" className="instaTag">
           <img src={Youtube} alt="Youtube" height="30px" style={{padding:"7px"}}/>Deepanshu Sain
+          </a>
+        <a href="https://t.me/+rUvA6_JizUkwYzY1" target="__blank" className="instaTag">
+          <img src={Telegram} alt="Youtube" height="30px" style={{padding:"7px"}}/>Deepanshu Sain
           </a>
         </div>
         {/* social icons */}
