@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.6243a9ae.css",
-    "main.js": "/static/js/main.d7c9df0b.js",
+    "main.css": "/static/css/main.74806b49.css",
+    "main.js": "/static/js/main.f071a902.js",
+    "static/media/heartemoji.png": "/static/media/heartemoji.fb334d47748fd1418e46.png",
+    "static/media/glasses.png": "/static/media/glasses.707967eaebf1a3202549.png",
+    "static/media/humble.png": "/static/media/humble.3c487bfacf650108c108.png",
+    "static/media/COURSE.png": "/static/media/COURSE.8df6d0ea57f842603648.png",
     "static/media/boy.png": "/static/media/boy.e7d35d5fd8602022fbc7.png",
     "static/media/deepanshu.jpg": "/static/media/deepanshu.cda114324f3591c5837e.jpg",
     "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
@@ -10,11 +14,11 @@
     "static/media/crown.png": "/static/media/crown.dbe416beae9b49b842ab.png",
     "static/media/Vector2.png": "/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "index.html": "/index.html",
-    "main.6243a9ae.css.map": "/static/css/main.6243a9ae.css.map",
-    "main.d7c9df0b.js.map": "/static/js/main.d7c9df0b.js.map"
+    "main.74806b49.css.map": "/static/css/main.74806b49.css.map",
+    "main.f071a902.js.map": "/static/js/main.f071a902.js.map"
   },
   "entrypoints": [
-    "static/css/main.6243a9ae.css",
-    "static/js/main.d7c9df0b.js"
+    "static/css/main.74806b49.css",
+    "static/js/main.f071a902.js"
   ]
 }
