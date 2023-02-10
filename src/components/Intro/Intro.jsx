@@ -34,7 +34,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
           <span>Deepanshu Sain</span>
           <span style={{fontWeight:"600"}}>
-          A leading Affiliate Marketer at LeadsGuru and a Digital creator
+          A leading Affiliate Marketer at LeadsGuru, a recognised BOI Content Creator on Instagram and a YouTuber.
           </span>
         </div>
         <a className="button n-button" href="tel:+918619202808 "><center>Contact me</center> </a>
@@ -45,8 +45,8 @@ const Intro = () => {
         <a href="https://www.youtube.com/channel/UCOIbUcksTZtnV7fAV3UNc6Q" target="__blank" className="instaTag">
           <img src={Youtube} alt="Youtube" height="30px" style={{padding:"7px"}}/>Deepanshu Sain
           </a>
-        <a href="https://t.me/+rUvA6_JizUkwYzY1" target="__blank" className="instaTag">
-          <img src={Telegram} alt="Youtube" height="30px" style={{padding:"7px"}}/>Deepanshu Sain
+        <a href="https://telegram.me/+rUvA6_JizUkwYzY1" target="__blank" className="instaTag">
+          <img src={Telegram} alt="Youtube" height="30px" style={{padding:"7px"}}/>Deepsuccessss (Telegram)
           </a>
         </div>
         {/* social icons */}
