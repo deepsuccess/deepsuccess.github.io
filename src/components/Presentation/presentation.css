@@ -88,8 +88,9 @@ iframe{
     }
     .p-wrapper{
         padding: 0;
-        margin-top: 15rem;
+        margin-top: 20rem;
         gap: 3rem;
+        height: auto !important;
     }
     .testimonial>img{
         width: 70px;

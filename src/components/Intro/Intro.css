@@ -103,12 +103,19 @@ a.instaTag{
   text-decoration: none;
 }
 
+div.first-buttons{
+  display: flex;
+}
+div.first-buttons a{
+  margin-right: 35px;
+}
+
 @media screen and (max-width: 480px) {
   .Intro {
     flex-direction: column;
     gap: 7rem;
     height: 64rem;
-    /* margin-top: 2rem; */
+    margin-top: 0rem;
   }
 
   .i-right {

@@ -11,8 +11,8 @@ import FloatinDiv from "../FloatingDiv/FloatingDiv";
 // import Github from "../../img/github.png";
 // import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
-import Youtube from '../../img/youtube.png'
-import Telegram from '../../img/telegram.png'
+import Youtube from "../../img/youtube.png";
+import Telegram from "../../img/telegram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 // import { Link } from "react-scroll";
@@ -30,30 +30,73 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span className="mobile-dp"><img src={deepanshu} alt="" /></span>
+          <span className="mobile-dp">
+            <img src={deepanshu} alt="" />
+          </span>
           <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
           <span>Deepanshu Sain</span>
-          <span style={{fontWeight:"600"}}>
-          A leading Affiliate Marketer at LeadsGuru, a recognised BOI Content Creator on Instagram and a YouTuber.
+          <span style={{ fontWeight: "600" }}>
+            A leading Affiliate Marketer at LeadsGuru, a recognised BOI Content
+            Creator on Instagram and a YouTuber.
           </span>
         </div>
-        <a className="button n-button" href="tel:+918619202808 "><center>Contact me</center> </a>
+        <div className="first-buttons">
+          <a className="button n-button" href="tel:+918619202808">
+            <center>Contact me</center>{" "}
+          </a>
+          <a
+            className="button n-button"
+            href="https://cosmofeed.com/view_ch/49c7dfb7-707a-4ab3-ac98-4e920ee184b8"
+            target='__blank'
+          >
+            <center>Instagram Workshop</center>{" "}
+          </a>
+        </div>
         <div className="social-icons">
-        <a href="https://www.instagram.com/deepsuccessss/" target="__blank" className="instaTag">
-          <img src={Instagram} alt="Instagram" height="30px" style={{padding:"7px"}}/>@deepsuccessss
+          <a
+            href="https://www.instagram.com/deepsuccessss/"
+            target="__blank"
+            className="instaTag"
+          >
+            <img
+              src={Instagram}
+              alt="Instagram"
+              height="30px"
+              style={{ padding: "7px" }}
+            />
+            @deepsuccessss
           </a>
-        <a href="https://www.youtube.com/channel/UCOIbUcksTZtnV7fAV3UNc6Q" target="__blank" className="instaTag">
-          <img src={Youtube} alt="Youtube" height="30px" style={{padding:"7px"}}/>Deepanshu Sain
+          <a
+            href="https://www.youtube.com/channel/UCOIbUcksTZtnV7fAV3UNc6Q"
+            target="__blank"
+            className="instaTag"
+          >
+            <img
+              src={Youtube}
+              alt="Youtube"
+              height="30px"
+              style={{ padding: "7px" }}
+            />
+            Deepanshu Sain
           </a>
-        <a href="https://telegram.me/+rUvA6_JizUkwYzY1" target="__blank" className="instaTag">
-          <img src={Telegram} alt="Youtube" height="30px" style={{padding:"7px"}}/>Deepsuccessss (Telegram)
+          <a
+            href="https://telegram.me/+rUvA6_JizUkwYzY1"
+            target="__blank"
+            className="instaTag"
+          >
+            <img
+              src={Telegram}
+              alt="Youtube"
+              height="30px"
+              style={{ padding: "7px" }}
+            />
+            Deepsuccessss (Telegram)
           </a>
         </div>
         {/* social icons */}
         <div className="i-icons">
-          {/* <img src={Github} alt="" /> */} 
+          {/* <img src={Github} alt="" /> */}
           {/* <img src={LinkedIn} alt="" /> */}
-
         </div>
       </div>
       {/* right image side */}
