@@ -4,7 +4,7 @@ import Card from "../Card/Card";
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
-import Course from '../../img/COURSE.png'
+import Course from "../../img/COURSE.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 // import Resume from "./resume.pdf";
@@ -25,29 +25,28 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>Our </span>
-        <span>Workshops</span>
+        <span style={{ color: darkMode ? "white" : "" }}>My </span>
+        <span>Workshop</span>
         <spane style={{ color: darkMode ? "white" : "" }}>
-          Here are some of our popular workshops that will help
+          Here is my workshop in which you will learn how to grow 
           <br />
-          you to grow your skillset and start your online business today.
+          your Instagram Followers and your business on instagram
         </spane>
         <div className="services-links">
-
-        <a
-          href="https://cosmofeed.com/view_ch/49c7dfb7-707a-4ab3-ac98-4e920ee184b8"
-          target="__blank"
-          style={{ textDecoration: "none" }}
-        >
-          <button className="button s-button">Buy Workshop</button>
-        </a>
-        <a
-          href="https://cosmofeed.com/ch/v/49c7dfb7-707a-4ab3-ac98-4e920ee184b8"
-          target="__blank"
-          style={{ textDecoration: "none" }}
-        >
-          <button className="button s-button">View Workshop</button>
-        </a>
+          <a
+            href="https://cosmofeed.com/view_ch/49c7dfb7-707a-4ab3-ac98-4e920ee184b8"
+            target="__blank"
+            style={{ textDecoration: "none" }}
+          >
+            <button className="button s-button">Buy Workshop</button>
+          </a>
+          <a
+            href="https://cosmofeed.com/ch/v/49c7dfb7-707a-4ab3-ac98-4e920ee184b8"
+            target="__blank"
+            style={{ textDecoration: "none" }}
+          >
+            <button className="button s-button">View Workshop</button>
+          </a>
         </div>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>

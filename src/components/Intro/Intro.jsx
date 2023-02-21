@@ -44,13 +44,13 @@ const Intro = () => {
           <a className="button n-button" href="tel:+918619202808">
             <center>Contact me</center>{" "}
           </a>
-          <a
+          {/* <a
             className="button n-button"
             href="https://cosmofeed.com/view_ch/49c7dfb7-707a-4ab3-ac98-4e920ee184b8"
             target='__blank'
           >
             <center>Instagram Workshop</center>{" "}
-          </a>
+          </a> */}
         </div>
         <div className="social-icons">
           <a

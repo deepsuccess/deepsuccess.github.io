@@ -27,7 +27,7 @@ function App() {
       <div className="mainContent">
 
       <Intro />
-      <Services />
+      {/* <Services /> */}
       <Presentation />
       <Experience />
       <Testimonial />
