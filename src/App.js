@@ -8,33 +8,54 @@ import Footer from "./components/Footer/Footer";
 import Presentation from "./components/Presentation/presentation";
 import { useContext } from "react";
 import { themeContext } from "./Context";
+import { BrowserRouter } from "react-router-dom";
+import {
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import Admin from "./components/Admin/admin";
+// Import the functions you need from the SDKs you need
+
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div
-      className="App"
-      style={{
-        background: darkMode ? "black" : "",
-        color: darkMode ? "white" : "",
-      }}
-      id='start'
-    >
-      <Navbar style={{
-        background: darkMode ? "black" : "",
-        color: darkMode ? "white" : "",
-      }}/>
-      <div className="mainContent">
-
-      <Intro />
-      {/* <Services /> */}
-      <Presentation />
-      <Experience />
-      <Testimonial />
-      {/* <Contact /> */}
-      </div>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          exact
+          path="/"
+          element={
+            <div
+              className="App"
+              style={{
+                background: darkMode ? "black" : "",
+                color: darkMode ? "white" : "",
+              }}
+              id="start"
+            >
+              <Navbar
+                style={{
+                  background: darkMode ? "black" : "",
+                  color: darkMode ? "white" : "",
+                }}
+              />
+              <div className="mainContent">
+                <Intro />
+                {/* <Services /> */}
+                <Presentation />
+                <Experience />
+                <Testimonial />
+                {/* <Contact /> */}
+              </div>
+              <Footer />
+            </div>
+          }
+        />
+        <Route exact path="/admin" element={<Admin />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
