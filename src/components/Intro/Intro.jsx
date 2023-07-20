@@ -37,7 +37,7 @@ const Intro = () => {
           A leading Affiliate Marketer at LeadsGuru, a recognised BOI Content Creator on Instagram and a YouTuber.
           </span>
         </div>
-        <a className="button n-button" href="tel:+918619202808 "><center>Contact me</center> </a>
+        <a className="button n-button" href="tel:+918949474648 "><center>Contact me</center> </a>
         <div className="social-icons">
         <a href="https://www.instagram.com/deepsuccessss/" target="__blank" className="instaTag">
           <img src={Instagram} alt="Instagram" height="30px" style={{padding:"7px"}}/>@deepsuccessss
