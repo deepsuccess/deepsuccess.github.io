@@ -34,7 +34,10 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
           <span>Deepanshu Sain</span>
           <span style={{fontWeight:"600"}}>
-          A leading Affiliate Marketer at LeadsGuru, a recognised BOI Content Creator on Instagram and a YouTuber.
+          {/* A leading Affiliate Marketing Guru at LeadsGuru, a recognised BOI Content Creator on Instagram and a YouTuber. */}
+          <p>
+          Tech content creator with 100K+ followers📱| Medical student🎓 | Affiliate Marketing Guru (₹2.5M in 2yrs) 💼 | Making waves on IG 🌊 | Seeking brand collaborations ✨ 
+          </p>
           </span>
         </div>
         <a className="button n-button" href="tel:+918949474648 "><center>Contact me</center> </a>
