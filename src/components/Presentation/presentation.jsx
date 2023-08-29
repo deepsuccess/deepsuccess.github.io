@@ -15,8 +15,8 @@ const Presentation = () => {
     <div className="p-wrapper" id="presentation" >
       <div className="t-heading">
         <span style={{ color: darkMode ? "white" : "" }}>How I made more than </span>
-        <span>1 Million </span>
-        <span style={{ color: darkMode ? "white" : "" }}>in just 11 months at the age of 19, To know more about it </span>
+        <span>2 Million </span>
+        <span style={{ color: darkMode ? "white" : "" }}>in just 18 months at the age of 20, To know more about it </span>
         <span>watch this video </span>
         {/* <span style={{ color: darkMode ? "white" : "" }}>with me...</span> */}
       <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>

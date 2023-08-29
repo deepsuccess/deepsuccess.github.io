@@ -58,8 +58,8 @@ const Testimonial = () => {
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span style={{ color: darkMode ? "white" : "" }}>My team </span>
-        <span>Earns </span>
+        <span style={{ color: darkMode ? "white" : "" }}>My students </span>
+        <span>Earn </span>
         <span style={{ color: darkMode ? "white" : "" }}>with me...</span>
         <div
           className="blur t-blur1"
