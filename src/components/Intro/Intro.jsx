@@ -48,58 +48,49 @@ const Intro = () => {
           <center>Contact me</center>{" "}
         </a>
         <div className="social-icons">
-          <a
-            href="https://www.instagram.com/deepsuccessss/"
+        <div>
+        Follow me on
+        </div>
+        <div style={{display:'flex'}}>
+        {[
+          {
+          title:'@deepsuccessss',
+          link:"https://www.instagram.com/deepsuccessss/",
+          image:Instagram
+        },
+          {
+          title:'Deepanshu Sain',
+          link:"https://www.youtube.com/channel/UCOIbUcksTZtnV7fAV3UNc6Q",
+          image:Youtube
+        },
+          {
+          title:'Deepsuccessss (Telegram)',
+          link:"https://telegram.me/+rUvA6_JizUkwYzY1",
+          image:Telegram
+        },
+          {
+          title:'Deepanshu Sain',
+          link:"https://www.linkedin.com/in/deepanshu-sain-a2718a282/",
+          image:LinkedIn
+        },
+        ].map((social)=>{
+          return <a
+            href={social.link}
             target="__blank"
             className="instaTag"
+            title={social.title}
           >
             <img
-              src={Instagram}
-              alt="Instagram"
+              src={social.image}
+              alt={social.title}
               height="30px"
-              style={{ padding: "7px" }}
             />
-            @deepsuccessss
+            <span className="social-title">
+            {social.title}
+            </span>
           </a>
-          <a
-            href="https://www.youtube.com/channel/UCOIbUcksTZtnV7fAV3UNc6Q"
-            target="__blank"
-            className="instaTag"
-          >
-            <img
-              src={Youtube}
-              alt="Youtube"
-              height="30px"
-              style={{ padding: "7px" }}
-            />
-            Deepanshu Sain
-          </a>
-          <a
-            href="https://telegram.me/+rUvA6_JizUkwYzY1"
-            target="__blank"
-            className="instaTag"
-          >
-            <img
-              src={Telegram}
-              alt="Youtube"
-              height="30px"
-              style={{ padding: "7px" }}
-            />
-            Deepsuccessss (Telegram)
-          </a>
-          <a
-            href="https://www.linkedin.com/in/deepanshu-sain-a2718a282/"
-            target="__blank"
-            className="instaTag"
-          >
-            <img
-              src={LinkedIn}
-              alt="Youtube"
-              height="30px"
-              style={{ padding: "7px" }}
-            />
-            Deepanshu Sain
-          </a>
+        })}
+          </div>
         </div>
         {/* social icons */}
         <div className="i-icons">
@@ -111,7 +102,7 @@ const Intro = () => {
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={boy} alt="" style={{ zIndex: 2 }} />
+        <img src={boy} alt="" style={{ zIndex: 2 , height:'580px'}} />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}

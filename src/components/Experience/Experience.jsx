@@ -21,7 +21,7 @@ const Experience = () => {
       <div className="achievement">
         <div className="circle" style={{color: darkMode?'var(--orange)':'',border:darkMode?"orange solid":"",backgroundColor:darkMode?"black":""}}>{process.env.REACT_APP_TEAM}</div>
         <span  style={{color: darkMode?'white':'',fontSize:"30px"}}>Students </span>
-        <span style={{fontSize:"30px"}}>Earned</span>
+        <span style={{fontSize:"30px"}}>Trained</span>
       </div>
     </div>
   );
