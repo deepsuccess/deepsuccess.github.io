@@ -62,7 +62,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="button n-button" href="tel:+918619202808 ">
+        <a className="button n-button" href="tel:+918949474648 ">
           Contact
         </a>
         {/* <button className="button n-button" onclick="location.href='tel:+4733378901'">Contact</button> */}
