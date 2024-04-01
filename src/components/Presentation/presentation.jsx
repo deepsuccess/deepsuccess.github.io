@@ -23,7 +23,7 @@ const Presentation = () => {
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
       </div>
-      <iframe src="https://www.youtube.com/embed/KQjfdl-EnG8?si=cI26ljOGLj_8b9Uz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/B_oXwi73JWQ?si=JV2NWIB-hnyZRJii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <a className="button n-button" href="tel:+918949474648 "><center>WhatsApp me your queries on <br /> &nbsp;+91 8949474648</center> </a>
     </div>
   );
