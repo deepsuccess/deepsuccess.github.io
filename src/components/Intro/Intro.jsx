@@ -44,7 +44,7 @@ const Intro = () => {
             </p>
           </span>
         </div>
-        <a className="button n-button" href="tel:+918949474648 ">
+        <a className="button n-button" href="tel:+918619202808 ">
           <center>Contact me</center>{" "}
         </a>
         <div className="social-icons">
